@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://donation-backend-theta.vercel.app/api', // Your backend URL
+  baseURL: 'https://donation-backend-neon.vercel.app/api', // Your backend URL
 });
 
 // Interceptor to add token to headers
