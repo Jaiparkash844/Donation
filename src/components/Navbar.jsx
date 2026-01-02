@@ -107,7 +107,7 @@ const Navbar = () => {
                             onClick={handleLogout}
                             className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-rose-500 hover:text-rose-400 transition-all group"
                         >
-                            <span className="hidden sm:inline">Terminate_Session</span>
+                            <span className="hidden sm:inline">Logout</span>
                             <LogOut size={16} className="group-hover:translate-x-1 transition-transform" />
                         </button>
                     </div>
